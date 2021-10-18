@@ -1,0 +1,80 @@
+/* ./src/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: linear-gradient(rgba(229, 231, 235, 0.2), rgba(229, 231, 235, 0.2)), url("photo.jfif");
+   background-position: center center;
+   background-attachment: fixed;
+   position: relative;
+}
+.heading{
+  padding-top: 150px;
+  color: #032497;
+}
+
+
+
+.container{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 900px;
+  height: 200px;
+  border-radius: 50px;
+  background-color: #ffff;
+  opacity: 0.9;
+}
+
+.containerStyle{
+  margin-left: 10px;
+  margin-top: 100px;
+  width: 900px;
+  height: 400px;
+  border-radius: 50px;
+  background-color: #ffff;
+  opacity: 0.9;
+}
+
+.button{
+
+ height: 50px;
+ width: 100px;
+ border-radius:10px;
+ margin-left: 200px;
+  background-color: #000000;
+  color: #fff;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+
+form{
+  text-align: center;
+
+}
+
+.SignUp{
+  font-family: 'Henny Penny', cursive;
+  opacity: 1;
+  color: #032497;
+  padding-right: 150px;
+  padding-top: 100px;
+}
+
+/* input{
+  border-radius: 10px;
+} */
+
+.icon{
+  color: #111827;
+}
+
+.box{
+  border: 1px solid grey;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.boxField{
+  border: 1px solid grey;
+}
